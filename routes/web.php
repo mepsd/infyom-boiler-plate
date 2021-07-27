@@ -21,6 +21,14 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('/home', [
+Route::get('/dashboard', [
     HomeController::class, 'index'
-])->name('home');
+])->name('dashboard');
+
+
+Route::resource('roles', App\Http\Controllers\RoleController::class);
+
+
+Route::resource('permissions', App\Http\Controllers\PermissionController::class);
+
+Route::resource('users', App\Http\Controllers\UsersController::class);

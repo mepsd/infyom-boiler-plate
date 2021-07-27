@@ -1,4 +1,4 @@
-<h1 align="center"><img src="https://mepsd.me/img/profile.47876f9c.svg" alt="mepsd"></h1>
+<h1 align="center"><img src="https://mepsd.me/img/profile.47876f9c.svg" width="50%" alt="mepsd"></h1>
 
 # Laravel Boilerplate for AdminLTE Theme and Usage
 
